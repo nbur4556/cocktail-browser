@@ -6,7 +6,7 @@ const formatDrinkData = (drinkResponse: IDrinkResponse): IDrinkData => {
     const ingredients: Array<string | undefined> = [];
     const measurements: Array<string | undefined> = [];
 
-    for (let i: number = 1; i <= 15; i++) {
+    for (let i = 1; i <= 15; i++) {
         ingredients.push(drinkResponse['strIngredient' + i]);
         measurements.push(drinkResponse['strMeasure' + i]);
     }
