@@ -1,6 +1,6 @@
 # Cocktail Types
 
-<!-- [View Cocktail Types](https://LINK/) -->
+[View Cocktail Types](https://cocktail-browser.vercel.app/)
 
 ## Description
 
@@ -25,6 +25,7 @@ Cocktail Types is a resource for searching and browsing cocktails, and getting r
 * TypeScript
 * React
 * Tailwind CSS
+* Vite
 
 <!-- ## License -->
 
