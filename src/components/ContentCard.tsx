@@ -6,11 +6,11 @@ import IngredientListItem from './IngredientListItem';
 // Interfaces
 import { IDrinkData } from '../interfaces';
 
-interface ICardProps {
+interface ContentCardProps {
     drinkData: IDrinkData
 }
 
-const ContentCard: React.FC<ICardProps> = (props): JSX.Element => {
+const ContentCard = (props: ContentCardProps) => {
     return <article className="bg-gray-500 text-white rounded-md max-w-2xl w-10/12 m-5 mx-auto">
         <ContentCardImage source={props.drinkData.imgThumbnail} />
 
