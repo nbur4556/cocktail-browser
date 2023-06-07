@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from "axios";
 
-const baseUrl: string = 'https://www.thecocktaildb.com/api/json/v1';
+const baseUrl = 'https://www.thecocktaildb.com/api/json/v1';
 const apiKey: string | undefined = import.meta.env.VITE_COCKTAILDB_API_KEY;
 
 //Interfaces
